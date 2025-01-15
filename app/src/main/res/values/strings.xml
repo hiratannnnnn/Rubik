@@ -1,0 +1,63 @@
+<resources>
+    <!-- MainActivity -->
+    <string name="app_name">OLL Random Display</string>
+    <string name="tab_title_main">Main</string>
+    <string name="tab_title_record">Records</string>
+    <string name="tab_title_timer">Timer</string>
+
+    <!-- MainFragment-->
+    <string name="focus_button">Focus on Your Common Mistakes</string>
+    <string name="rotate_anti">U\'</string>
+    <string name="rotate_clock">U</string>
+    <string name="correct">Can Solve</string>
+    <string name="incorrect">Cannot</string>
+    <string name="answer">One of Solutions\nEach line represents a different solution.</string>
+    <string name="current_record"></string>
+    <string name="sort_button">with Most Errors</string>
+
+    <string name="action_reset">Delete All Records</string>
+    <string name="explanation_menu">Notation Guide</string>
+
+    <!-- TimerFragment-->
+    <string name="timer_start">Start</string>
+    <string name="timer_end">Stop</string>
+    <string name="timer_resume">Start / Stop</string>
+    <string name="timer_reset">Reset Timer</string>
+    <string name="set_record">Set As a Record</string>
+
+
+    <string name="explanation_text">
+        OLL stands for Orientation of the Last Layer, a solving method that aims to memorize all 57 patterns after completing a full face and the adjacent two layers.
+        It is often generalized and simplified into a solving sequence of V-shape → middle 3 → cross → corners → full face.
+        However, this method lacks speed, so OLL aims to quickly solve into a full face using the shortest sequence among the 57 patterns.\n
+        While 57 patterns may sound overwhelming, you\'ll find that many sequences overlap or are the reverse of each other.
+        As you understand more, it won\'t feel like that many.\n\n
+        Below is an explanation of the notation and a summary of common sequences.\n
+        Especially, "U", "R", "F" are frequently used, so memorize them at the very least. B, E are rarely seen, so they are not included.\n
+        To indicate a counter-clockwise rotation, we use the symbol "’". Similarly, "2" is used to indicate a 180-degree rotation.
+        For example, "U’" or "R2".\n
+        A bit trickier, we use "w" to indicate turning two layers. Like "Rw".\n\n
+        When making cube rotations, the notations x, y, and z are sometimes used. \'x\' indicates rotating in the direction of R, \'y\' in the direction of U, and \'z\' in the direction of F. Adding a \'prime\' symbol (\') reverses the direction. x\' appears fairly frequently.\n\n
+        There may be different schools of thought on which color to set on top, but the author belongs to the green school, so it is set to green.
+    </string>
+    <string name="explanation_u">Clockwise when viewed from above. U\' is counter-clockwise when viewed from above. Flick with the index finger.</string>
+    <string name="explanation_r">Clockwise when viewed from the right. R\' is counter-clockwise when viewed from the right. Turn with the right hand.</string>
+    <string name="explanation_f">Clockwise when viewed from the front. F\' is counter-clockwise when viewed from the front. The author uses the right index finger and thumb.</string>
+    <string name="explanation_m">Turns only the layer between R and L. Same direction as L. M = Rw\' R, M\' = Rw R\'</string>
+    <string name="explanation_l">Clockwise when viewed from the left. L\' is counter-clockwise when viewed from the left. With practice, using L can sometimes be faster.</string>
+    <string name="explanation_d">Clockwise when viewed from below. D\' is counter-clockwise when viewed from below. Appears occasionally.</string>
+    <string name="explanation_s">Turns the middle layer next to F. Same direction as F. S is used occasionally.</string>
+    <string name="explanation_fruruf">Frequently occurs.</string>
+
+
+    <string name="reset_records">Delete All Records</string>
+    <string name="toggle_answer">Show a Solution</string>
+
+    <string name="confirm">Confirm</string>
+    <string name="reset_confirmation">Are you sure to delete all records?</string>
+    <string name="confirm_yes">Yes</string>
+    <string name="confirm_no">No</string>
+
+    <string name="explanation_name">Explanation</string>
+
+</resources>

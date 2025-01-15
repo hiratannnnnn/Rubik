@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 既存の色 -->
+    <color name="colorPrimary">#5D311D</color>  <!-- 茶色 -->
+    <color name="colorPrimaryDark">#542A1A</color>  <!-- より暗い茶色 -->
+    <color name="colorAccent">#FFC107</color>  <!-- アクセント色、例えば黄色 -->
+
+    <!-- Toggle ボタン用の色 -->
+    <color name="toggleOn">#4E342E</color>  <!-- オンのときの色、深い茶色 -->
+    <color name="toggleOff">#D7CCC8</color>  <!-- オフのときの色、薄い茶色 -->
+    <color name="toggleThumb">#BCAAA4</color>  <!-- ボタン自体の色、中間の茶色 -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="colorBackground">#EDE7E0</color>
+</resources>

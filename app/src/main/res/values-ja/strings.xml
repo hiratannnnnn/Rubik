@@ -1,0 +1,62 @@
+<resources>
+    <!-- MainActivity -->
+    <string name="app_name">OLL 練習</string>
+    <string name="tab_title_main">メイン</string>
+    <string name="tab_title_record">記録</string>
+    <string name="tab_title_timer">タイマー</string>
+
+    <!-- MainFragment-->
+    <string name="focus_button">間違いの多い図面に集中する</string>
+    <string name="rotate_anti">U\'</string>
+    <string name="rotate_clock">U</string>
+    <string name="correct">正解</string>
+    <string name="incorrect">分からない</string>
+    <string name="answer">解法の一つ\n別の行は別の解法</string>
+    <string name="current_record"></string>
+    <string name="sort_button">間違いが多い図面</string>
+
+    <string name="action_reset">すべての記録をリセットする</string>
+    <string name="explanation_menu">記号の意味など</string>
+
+    <!-- TimerFragment-->
+    <string name="timer_start">開始</string>
+    <string name="timer_end">ストップ</string>
+    <string name="timer_resume">開始 / ストップ</string>
+    <string name="timer_reset">タイマーをリセット</string>
+    <string name="set_record">記録に設定する</string>
+
+    <string name="explanation_text">
+        OLLは、Orientation of the Last Layerの略で、完全一面とそこから側面２段を完成させてからの全57パターンを覚えて
+        しまおうという攻略法になります。もっと一般化、簡単化し、V字→真ん中3つ→十字→四隅３つ→完全１面
+        という揃え方として覚えられることも多いです。しかし、速度に欠けるので、57パターンすべてから最短でとりあえず完全１面
+        にこぎつけてしまおうという解法がOLLです。\n
+        57パターンと聞くと嫌気が差すと思いますが、意外と他の手順に合流したり、ある手順の逆操作であったり、
+        理解してくるとそこまで多く感じないものです。\n\n
+        以下は記号の解説と、頻出手順のまとめになります。\n
+        特に、「U」、「R」、「F」は頻出になりますから、最低限覚えましょう。B, Eに関してはほぼ見ないので含めていません。\n
+        また、それぞれ逆回転を表すために「’」を使います。同様に、2回転を表すために「2」を使います。
+        例えば、「U’」や「R2」という具合です。\n
+        また少しトリッキーですが、2段分回すときには「w」を付けます。「Rw」など。\n\n
+        持ち替えをするときはx,y,zという書かれ方をすることがあります。xがRの向き、yがUの向きに、zがFの向きで、’がつくと逆になります。x’はそこそこ頻出です。\n\n
+        一番上を何色にするかは宗派があると思いますが、作者は緑派なので緑に設定されております。
+    </string>
+    <string name="explanation_u">上から見て時計回り。U’は上から見て反時計回り。人差し指で弾きます。</string>
+    <string name="explanation_r">右から見て時計回り。R’は右から見て反時計回り。右手でクルっと回します。</string>
+    <string name="explanation_f">正面から見て時計回り。F’は正面から見て反時計回り。作者は右手の人差し指と親指を使います。</string>
+    <string name="explanation_m">RとLの間の1段だけを回す。Lと向きが同じ。M = Rw’ R, M’ = Rw R’</string>
+    <string name="explanation_l">左から見て時計回り。L’は左から見て反時計回り。慣れればLを駆使する解法の方が速いことがある。</string>
+    <string name="explanation_d">下から見て時計回り。D’は下から見て反時計回り。たまに出てくる。</string>
+    <string name="explanation_s">Fの隣の真ん中の段を回す。Fと向きが同じ。Sはたまに使う。</string>
+    <string name="explanation_fruruf">頻出。</string>
+
+    <string name="reset_records">すべての記録をリセットする</string>
+    <string name="toggle_answer">解法を表示する。</string>
+
+    <string name="confirm">確認</string>
+    <string name="reset_confirmation">本当に記録を消去しますか？（インストール時の状態に戻ります。）</string>
+    <string name="confirm_yes">はい</string>
+    <string name="confirm_no" >いいえ</string>
+    
+    <string name="explanation_name">解説</string>
+
+</resources>
